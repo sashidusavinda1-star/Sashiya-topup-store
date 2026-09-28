@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SASHIYA TOP UP STORE</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #080b14;
+      color: white;
+      min-height: 100vh;
+    }
+
+    header {
+      background: linear-gradient(135deg, #17112e, #090d1c);
+      padding: 30px 18px;
+      text-align: center;
+      border-bottom: 1px solid #29233f;
+    }
+
+    .logo {
+      font-size: 30px;
+      font-weight: 900;
+      color: #ff3d81;
+      text-shadow: 0 0 15px rgba(255, 61, 129, 0.5);
+    }
+
+    .subtitle {
+      margin-top: 8px;
+      color: #b8b8c7;
+      font-size: 14px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 35px 15px 25px;
+    }
+
+    .hero h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #a9a9b8;
+      font-size: 14px;
+    }
+
+    .section {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px 15px;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 22px;
+      margin-bottom: 20px;
+      color: #ffffff;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 15px;
+    }
+
+    .card {
+      background: linear-gradient(145deg, #15182a, #0d101d);
+      border: 1px solid #292e48;
+      border-radius: 18px;
+      padding: 20px 15px;
+      text-align: center;
+      transition: 0.25s;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: #ff3d81;
+    }
+
+    .icon {
+      font-size: 35px;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      font-size: 17px;
+      margin-bottom: 8px;
+    }
+
+    .price {
+      color: #ffd34d;
+      font-size: 20px;
+      font-weight: bold;
+      margin: 10px 0 15px;
+    }
+
+    .buy-btn {
+      width: 100%;
+      border: none;
+      padding: 12px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #ff2d75, #ff0055);
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .buy-btn:active {
+      transform: scale(0.97);
+    }
+
+    .info-box {
+      margin-top: 30px;
+      background: #111522;
+      border: 1px solid #292e48;
+      border-radius: 18px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .info-box h2 {
+      margin-bottom: 12px;
+    }
+
+    .info-box p {
+      color: #b7b7c5;
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .whatsapp {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 13px 22px;
+      background: #20c76b;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    footer {
+      margin-top: 35px;
+      padding: 25px 15px;
+      text-align: center;
+      background: #05070d;
+      color: #77798a;
+      font-size: 13px;
+    }
+
+    .order-note {
+      margin-top: 10px;
+      color: #888b9b;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">❤️ SASHIYA TOP UP STORE ❤️</div>
+    <div class="subtitle">Fast • Safe • Trusted Free Fire Top Up</div>
+  </header>
+
+  <section class="hero">
+    <h1>🔥 Free Fire Top Up</h1>
+    <p>Select your package and contact us to place your order.</p>
+  </section>
+
+  <section class="section">
+
+    <h2 class="section-title">💎 Diamond Packages</h2>
+
+    <div class="products">
+
+      <div class="card">
+        <div class="icon">💎</div>
+        <h3>100 Diamonds</h3>
+        <div class="price">Rs. XXX</div>
+        <button class="buy-btn" onclick="order('100 Diamonds')">
+          ORDER NOW
+        </button>
+      </div>
+
+      <div class="card">
+        <div class="icon">💎</div>
+        <h3>310 Diamonds</h3>
+        <div class="price">Rs. XXX</div>
+        <button class="buy-btn" onclick="order('310 Diamonds')">
+          ORDER NOW
+        </button>
+      </div>
+
+      <div class="card">
+        <div class="icon">💎</div>
+        <h3>520 Diamonds</h3>
+        <div class="price">Rs. XXX</div>
+        <button class="buy-btn" onclick="order('520 Diamonds')">
+          ORDER NOW
+        </button>
+      </div>
+
+      <div class="card">
+        <div class="icon">💎</div>
+        <h3>1060 Diamonds</h3>
+        <div class="price">Rs
